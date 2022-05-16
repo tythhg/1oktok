@@ -21,14 +21,14 @@ spec:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "AYJCSGM/mikutap/archive"
+          value: "mirror.umd.edu"
         - name: Vless_UUID
           value: "5c301bb8-6c77-41a0-a606-4ba11bbab084"
         - name: Vless_Path
-          value: "/vless"
+          value: "/m56ftgytrASW"
         - name: Vmess_UUID
           value: "5c301bb8-6c77-41a0-a606-4ba11bbab084"
         - name: Vmess_Path
-          value: "/vmess"
+          value: "/m57ftgytrASW"
         - name: Share_Path
           value: "$Share_Path"
