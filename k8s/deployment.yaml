@@ -21,7 +21,7 @@ spec:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "$ProxySite"
+          value: "AYJCSGM/mikutap/archive"
         - name: Vless_UUID
           value: "83201a25-cec2-43f0-9b2c-c733ab48c4ee"
         - name: Vless_Path
