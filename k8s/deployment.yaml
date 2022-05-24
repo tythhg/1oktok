@@ -21,7 +21,7 @@ spec:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "$ProxySite"
+          value: "icook.tw"
         - name: Vless_UUID
           value: "6a217851-af74-4738-bf76-0c4d0fd156ae"
         - name: Vless_Path
