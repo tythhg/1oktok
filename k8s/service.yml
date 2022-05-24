@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: pool
+  name: start
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "pool"
+  - name: "start"
     port: 8080
   selector:
-    app: pool
+    app: start
