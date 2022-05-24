@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: outlook
+  name: search
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "outlook"
+  - name: "search"
     port: 8080
   selector:
-    app: outlook
+    app: search
