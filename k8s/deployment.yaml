@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: search
+  name: okk
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: search
+      app: okk
   template:
     metadata:
       labels:
-        app: search
+        app: okk
     spec:
       containers:
-      - image: okteto.dev/search:latest
-        name: search
+      - image: okteto.dev/okk:latest
+        name: okk
         ports:
         - containerPort: 8080
         env:
