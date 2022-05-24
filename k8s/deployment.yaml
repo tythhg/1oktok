@@ -23,12 +23,12 @@ spec:
         - name: ProxySite
           value: "$ProxySite"
         - name: Vless_UUID
-          value: "c1268ab0-a903-4eff-8be0-55f3b7c9383f"
+          value: "afcec8d5-ac8a-4264-981d-89e11d6c6226"
         - name: Vless_Path
-          value: "/m56ftgytrASW"
+          value: "/hgfV78Lds"
         - name: Vmess_UUID
-          value: "c1268ab0-a903-4eff-8be0-55f3b7c9383f"
+          value: "afcec8d5-ac8a-4264-981d-89e11d6c6226"
         - name: Vmess_Path
-          value: "/m57ftgytrASW"
+          value: "/yhu79MhvM"
         - name: Share_Path
           value: "$Share_Path"
