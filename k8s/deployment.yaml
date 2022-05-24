@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: start
+  name: outlook
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: start
+      app: outlook
   template:
     metadata:
       labels:
-        app: start
+        app: outlook
     spec:
       containers:
-      - image: okteto.dev/start:latest
-        name: start
+      - image: okteto.dev/outlook:latest
+        name: outlook
         ports:
         - containerPort: 8080
         env:
